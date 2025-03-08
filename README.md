@@ -1,6 +1,6 @@
-# FigmaChain: HTML/CSS Code Generation from Figma Designs
+# HTML/CSS Code Generation from Figma Designs
 
-FigmaChain is a set of Python scripts that generate HTML/CSS code based on Figma designs. Using OpenAI's GPT-3 model, FigmaChain enables developers to quickly generate HTML/CSS code from a Figma design input. It also includes a Streamlit-based chatbot interface for interactive code generation.
+This is a Python script set that generates HTML/CSS code based on Figma designs. Using OpenAI's GPT-3 model enables developers to quickly generate HTML/CSS code from a Figma design input. It also includes a Streamlit-based chatbot interface for interactive code generation.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ To access the Figma RESTful API, you will need an access token, node IDs, and a 
 
 ### generateCode.py
 
-This script generates HTML/CSS code based on a user-provided input and a Figma design.
+This script generates HTML/CSS code based on user-provided input and a Figma design.
 
 1. Navigate to the project directory.
 2. Run the script with the desired input text as a command-line argument: python generateCode.py input_text
@@ -42,14 +42,6 @@ This is the chatbot code.
 1. Start the Streamlit app: streamlit run chatbot.py
 2. Enter your input in the chat interface and receive generated HTML/CSS code.
 3. The generated code is rendered on the page and the conversation is displayed.
-
-## Sponsors
-
-✨ Learn to build projects like this one (with an early bird discount): [BuildFast Course](https://www.buildfastcourse.com/)
-
-## License
-
-[MIT License](LICENSE)
 
 
 
